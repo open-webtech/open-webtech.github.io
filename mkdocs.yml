@@ -1,0 +1,75 @@
+site_name: Open WebTech Association
+repo_name: owta-website
+repo_url: https://github.com/open-webtech/owta-website
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Get Involved: get-involved.md
+
+theme:
+  name: material
+  icon:
+    logo: fontawesome/regular/hand-pointer
+    repo: fontawesome/brands/git-alt
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: custom
+      accent: blue
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: custom
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.progress
+    - toc.follow
+    - content.action.view
+    - content.action.edit
+
+extra_css:
+  - assets/css/code-highlight.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/open-webtech
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@owta
+    - icon: fontawesome/brands/discord
+      link: https://owta.dev/discord
+
+markdown_extensions:
+  - smarty
+  - sane_lists
+  - admonition
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: False
+      css_class: 'code-highlight'
+  - pymdownx.magiclink
