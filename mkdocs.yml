@@ -63,6 +63,11 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://owta.dev/discord
 
+plugins:
+  - git-committers:
+      repository: open-webtech/owta-website
+      branch: main
+
 markdown_extensions:
   - smarty
   - sane_lists
