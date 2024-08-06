@@ -64,6 +64,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install mkdocs-material
+          pip install "mkdocs-material[imaging]"
           pip install mkdocs-git-committers-plugin-2
 
       - name: Build website

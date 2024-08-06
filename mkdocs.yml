@@ -64,6 +64,7 @@ extra:
       link: https://owta.dev/discord
 
 plugins:
+  - social
   - git-committers:
       repository: open-webtech/owta-website
       branch: main
