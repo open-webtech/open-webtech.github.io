@@ -1,5 +1,7 @@
 ---
 title: Get Involved with OWTA
+hide:
+  - navigation
 ---
 
 # Get Involved with OWTA

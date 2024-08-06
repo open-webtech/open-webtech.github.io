@@ -1,5 +1,7 @@
 ---
 title: Welcome to the Open WebTech Association
+hide:
+  - navigation
 ---
 
 # Open WebTech Association
