@@ -5,8 +5,11 @@ edit_uri: edit/main/docs/
 
 nav:
   - Home: index.md
-  - About: about.md
-  - Get Involved: get-involved.md
+  - About:
+    - Introduction: about.md
+    - 'Definition of "WebTech"': https://open-webtech.github.io/owta-publications/meta/webtech-definition
+    - 'Related Initatives': https://open-webtech.github.io/owta-publications/meta/related-initiatives
+  - 'Get Involved': get-involved.md
 
 theme:
   name: material
