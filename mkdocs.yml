@@ -17,7 +17,6 @@ nav:
 theme:
   name: material
   icon:
-    logo: fontawesome/regular/hand-pointer
     repo: fontawesome/brands/git-alt
   palette:
     # Palette toggle for automatic mode
@@ -43,6 +42,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.png
   features:
     - navigation.footer
     - navigation.indexes
