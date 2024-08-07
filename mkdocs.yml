@@ -10,6 +10,8 @@ nav:
     - 'Definition of "WebTech"': https://open-webtech.github.io/owta-publications/meta/webtech-definition
     - 'Related Initatives': https://open-webtech.github.io/owta-publications/meta/related-initiatives
   - 'Get Involved': get-involved.md
+  - Blog:
+    - blog/index.md
 
 theme:
   name: material
@@ -69,6 +71,14 @@ extra:
 plugins:
   - search
   - social
+  - blog
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
   - git-committers:
       repository: open-webtech/owta-website
       branch: main

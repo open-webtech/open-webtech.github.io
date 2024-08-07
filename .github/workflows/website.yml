@@ -65,6 +65,7 @@ jobs:
         run: |
           pip install mkdocs-material
           pip install "mkdocs-material[imaging]"
+          pip install mkdocs-rss-plugin
           pip install mkdocs-git-committers-plugin-2
           pip install mkdocs-link-marker
 
