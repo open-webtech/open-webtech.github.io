@@ -82,6 +82,8 @@ plugins:
       categories:
         - categories
         - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
   - git-committers:
       repository: open-webtech/owta-website
       branch: main
