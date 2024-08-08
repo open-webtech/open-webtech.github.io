@@ -4,6 +4,9 @@ authors:
   - secondtruth
 categories:
   - News
+comments: true
+hide:
+  - toc
 ---
 
 # Hello world!
