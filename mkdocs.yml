@@ -57,6 +57,7 @@ theme:
     - toc.follow
     - content.action.view
     - content.action.edit
+  custom_dir: overrides
 
 extra_css:
   - assets/css/code-highlight.css
